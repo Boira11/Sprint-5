@@ -104,8 +104,6 @@ function getRandomJoke(){
 
 }
 
-
-
 function addReport (joke,score){
 
   let reportScore = score || reportScores[reportScores.length - 1];
@@ -120,8 +118,6 @@ function addReport (joke,score){
   console.table(reportAcudits);
 
 }
-
-
 
 function score1 (){
 
@@ -148,9 +144,6 @@ function score3 (){
   console.log(reportScores);
   return score
 }
-
-
-
 
 checkWeather();
 

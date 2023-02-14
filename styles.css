@@ -6,4 +6,9 @@
     display: none;
   }
 
+  #weather {
+    max-width:100%;
+  }
+ 
+
 
